@@ -52,6 +52,7 @@ public class LogsExtractor {
     private static void compressFilesToRemoteDirByExtension(String destDir, String sourceDir, String filename, String... extension) {
         List<File> files = FileUtil.getFilesByExtension(sourceDir, extension);
         File tempDir = Files.createTempDir();
+        File tempDir = Files.createTempDir();
         File tempDirChild = new File(tempDir.getPath() + "\\" + "logs");
 
         try {
