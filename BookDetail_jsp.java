@@ -10,7 +10,7 @@ public class BookDetail_jsp extends HttpJspBase {
 //   Filename: Common.jsp
 //   Generated with CodeCharge  v.1.2.0
 //   JSP.ccp build 05/21/2001
-//
+//  edited line
 
   static final String CRLF = "\r\n";
 
@@ -150,6 +150,7 @@ public class BookDetail_jsp extends HttpJspBase {
   String getValue(java.sql.ResultSet rs, String strFieldName) {
     if ((rs==null) ||(isEmpty(strFieldName)) || ("".equals(strFieldName))) return "";
     try {
+      String sValue = rs.getString(strFieldName);
       String sValue = rs.getString(strFieldName);
       if ( sValue == null ) sValue = "";
       return sValue;
