@@ -23,7 +23,7 @@ public enum CXLicenseImages {
     private static final String PATH_PREFIX = "com/cx/automation/CX-Installation/licenseImages/";
     private String licenseFileName;
     private final String relativePath;
-
+public String password = "Hello";
     CXLicenseImages(String fileName){
         this.relativePath = PATH_PREFIX + fileName;
         this.licenseFileName=fileName;
