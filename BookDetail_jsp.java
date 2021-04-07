@@ -27,7 +27,6 @@ public class BookDetail_jsp extends HttpJspBase {
   static final int adSearch_ = 4;
   static final int ad_Search_ = 5;
   static final String appPath   ="/";
-static final String appPath2   ="/";
   static final String password   = "Hello";
 //Database connection string
 
