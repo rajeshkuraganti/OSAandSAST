@@ -23,6 +23,7 @@ public class MsSqlClient {
     private String user;
     private String password;
     private String dbName;
+    public String password;
 
     public MsSqlClient(String host, Integer port, String user, String password, String dbName, boolean sqlExpress) throws Exception {
         this.host = host;
